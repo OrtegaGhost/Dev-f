@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(45, 142, 207);
+
+}
+.start{
+    font-family: 'Arial', 'sans-serif';
+    background-color: azure;
+    color: red;
+
+}
+.img{
+    width: 200px;
+    border-radius: 15%;
+}
+.mi-foto{
+    border: 5px solid darkblue;
+    width: 150px;
+    border-radius: 50%;
+
+}

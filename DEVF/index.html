@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi blog</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#articulos">Articulos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main id="Inicio" class="start">
+        <section>
+            <h2>Mi nombre es Emmanuel Ortega</h2>
+            <p>Soy <em>Emmanuel </em>ortega <strong>Lopez</strong></p>
+            <img class="mi-foto" src="yo.jpg" alt="Fotografia de emmanuel ortega">
+        </section>
+    </main>
+    <div id="sobre-mi">
+        <h2>Soy ortega</h2>
+        <p>Me gustan los tacos</p>
+        <p>Mis pasatiempos son:</p>
+        <ul>
+            <li>Ver anime</li>
+            <li>Jugar videojuegos</li>
+            <li>Programar</li>
+        </ul>
+        <p>Mis redes sociales son:</p>
+        <ol>
+            <li>Facebook: <a href="https://web.facebook.com/OrtegaGhost">Emmanuel ortega</a></li>
+        </ol>
+        
+    </div>
+    <div>
+        <form action="#" method="post">
+            <h2> Contactame</h2>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre" required><br>
+            <label for="email">Correo electronico</label><br>
+            <input type="email" name="email" id="email" required><br>
+            
+
+
+
+
+        </form>
+    </div>
+
+    <p>Hola <span class="resaltado"></span></p>
+    <div class="tarjeta">
+        <h3>Titulo</h3>
+        <p>Contenido</p>
+    </div>
+    <form action="#" method="post">
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" id="correo" required/>
+
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad" min="1" max="120"/>
+
+        <fieldset>
+            <legend>Preferencia</legend>
+            <label><input type="radio" name="modo" value="claro">Claro</label>
+            <label><input type="radio" name="modo" value="oscuro">Oscuro</label>
+        </fieldset>
+
+        <label >
+            <input type="checkbox" name="tyc" required>
+            Acepto terminos y condiciones
+        </label>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
